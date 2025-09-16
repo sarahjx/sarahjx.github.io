@@ -30,7 +30,7 @@ function App() {
       return (
         <div className='app'>
           <header className="header">
-            <h1>Book Catalog</h1>
+            <h1>Sarah's Awesome Book Catalog</h1>
         </header>
 
       <main className="content">
