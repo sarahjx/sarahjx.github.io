@@ -1,0 +1,129 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #ffe0f7;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", "Quicksand", sans-serif;
+  background: #ffe0f7;
+}
+
+
+.header {
+  background: #ff6fb5;
+  color: white;
+  padding: 1.5rem 0 1rem 0;
+  text-align: center;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: 0 4px 12px rgba(255, 102, 176, 0.15);
+}
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 2.5rem 2.5rem;
+  flex: 1;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+
+.book-card {
+  width: 200px;
+  height: 300px;
+  border: none;
+  border-radius: 24px;
+  background: #fff0fa;
+  text-align: center;
+  padding: 1.2rem 1rem 1rem 1rem;
+  box-shadow: 0 4px 16px rgba(255, 102, 176, 0.12);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+.book-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(255, 102, 176, 0.18);
+}
+
+
+.book-card img {
+  max-width: 90%;
+  max-height: 140px;
+  object-fit: contain;
+  border-radius: 16px;
+  margin-bottom: 0.7rem;
+  box-shadow: 0 2px 8px rgba(255, 102, 176, 0.10);
+}
+
+
+.add-button {
+  font-family: "Comic Sans MS", "Quicksand", sans-serif;
+  width: 235px;
+  height: 335px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background: #ffb6d9;
+  color: #b5498a;
+  border: none;
+  margin: 0;
+  align-self: flex-start;
+  box-shadow: 0 2px 8px rgba(255, 102, 176, 0.10);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+
+.add-button:hover {
+  background: #ff6fb5;
+  color: white;
+  box-shadow: 0 4px 16px rgba(255, 102, 176, 0.18);
+}
+
+
+.footer {
+  background: #ffb6d9;
+  color: white;
+  text-align: center;
+  padding: 1.2rem 0;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  box-shadow: 0 -4px 12px rgba(255, 102, 176, 0.10);
+}
+
+
+h2, h3 {
+  margin: 0.5rem 0;
+  color: #b5498a;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.book-link {
+  display: inline-block;
+  margin-top: 0.7rem;
+  padding: 0.4rem 1.2rem;
+  background: #ffb6d9;
+  color: white;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(255, 102, 176, 0.10);
+  transition: background 0.2s, color 0.2s;
+}
+.book-link:hover {
+  background: #ff6fb5;
+  color: #b5498a;
+}
