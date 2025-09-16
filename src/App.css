@@ -6,13 +6,11 @@
   background: #ffe0f7;
 }
 
-
 body {
   margin: 0;
   font-family: "Comic Sans MS", "Quicksand", sans-serif;
   background: #ffe0f7;
 }
-
 
 .header {
   background: #ff6fb5;
@@ -24,7 +22,6 @@ body {
   box-shadow: 0 4px 12px rgba(255, 102, 176, 0.15);
 }
 
-
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -35,7 +32,6 @@ body {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 }
-
 
 .book-card {
   width: 200px;
@@ -49,6 +45,7 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
 }
+
 .book-card:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 8px 24px rgba(255, 102, 176, 0.18);
@@ -104,8 +101,8 @@ body {
 
 
 h2, h3 {
+  color: rgb(86, 48, 76);
   margin: 0.5rem 0;
-  color: #b5498a;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
@@ -123,6 +120,7 @@ h2, h3 {
   box-shadow: 0 2px 8px rgba(255, 102, 176, 0.10);
   transition: background 0.2s, color 0.2s;
 }
+
 .book-link:hover {
   background: #ff6fb5;
   color: #b5498a;
