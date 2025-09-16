@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import BookCard from './components/bookcard.jsx';
-import './app.css';
+import './App.css';
 
 function App() {
 
